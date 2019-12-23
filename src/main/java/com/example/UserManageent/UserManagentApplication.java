@@ -9,6 +9,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class UserManagentApplication {
 
 	public static void main(String[] args) {
+		//Testing
 		SpringApplication.run(UserManagentApplication.class, args);
 	}
 
