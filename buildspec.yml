@@ -10,4 +10,4 @@ phases:
         - mvn package
     artifacts:
       files:
-      - target/UserManagement-springboot.jar
+      - target/UserManagement-0.0.1-SNAPSHOT.jar
