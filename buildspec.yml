@@ -11,6 +11,7 @@ phases:
       commands:
         - echo Build completed on `date`
         - mvn package
+        - aws s3 sync ./build $S3_BUCKET
     artifacts:
       files:
       - target/UserManagement-0.0.1-SNAPSHOT.jar
