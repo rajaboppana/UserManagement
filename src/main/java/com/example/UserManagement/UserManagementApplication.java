@@ -1,4 +1,4 @@
-package com.example.UserManageent;
+package com.example.UserManagement;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
@@ -6,11 +6,11 @@ import org.springframework.context.annotation.ComponentScan;
 
 @SpringBootApplication
 @ComponentScan("com.example.*")
-public class UserManagentApplication {
+public class UserManagementApplication {
 
 	public static void main(String[] args) {
 		//Testing
-		SpringApplication.run(UserManagentApplication.class, args);
+		SpringApplication.run(UserManagementApplication.class, args);
 	}
 
 }
