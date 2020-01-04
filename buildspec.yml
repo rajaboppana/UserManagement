@@ -13,4 +13,4 @@ phases:
         - mvn package
     artifacts:
       files:
-      - '**/*'
+      - 'target/UserManagement.jar'
