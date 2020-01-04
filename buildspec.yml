@@ -3,14 +3,14 @@ version: 0.2
 phases:
   install:
     runtime-versions:
-      java: corretto8
+      java: openjdk8
   build:
     commands:
       - echo Build started on `date`
+      - mvn install
     post_build:
       commands:
         - echo Build completed on `date`
-        - mvn install
     artifacts:
       files:
       - 'target/UserManagement.jar'
